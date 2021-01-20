@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-go-template
+  description: hahaha
+  annotations: 
+    github.com/project-slug: talend/sgandon-go-template
+    backstage.io/github-actions-id: talend/sgandon-go-template
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sgandon
